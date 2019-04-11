@@ -48,8 +48,8 @@
 
         <!--数据库链接URL，用户名、密码 -->
         <jdbcConnection driverClass="oracle.jdbc.driver.OracleDriver"
-                        connectionURL="jdbc:oracle:thin:@10.0.13.24:1521:orcl"
-                        userId="anytxn_v2_dev" password="jrx12345">
+                        connectionURL="url"
+                        userId="账号" password="密码">
             <!-- 这里面可以设置property属性，每一个property属性都设置到配置的Driver上 -->
             <!-- 针对oracle数据库 需要增加下面配置才能生成注释-->
             <property name="remarksReporting" value="true"></property>
@@ -150,12 +150,12 @@
 
             注意，table里面很多参数都是对javaModelGenerator，context等元素的默认属性的一个复写；
          -->
-
+<!--对于oracle 需要指定  schema="账号"-->
         <table tableName="CUSTOMER_LIMIT_INFO"
                domainObjectName="CustomerLimitInfo"
                enableCountByExample="false" enableUpdateByExample="false"
                enableDeleteByExample="false" enableSelectByExample="false"
-               selectByExampleQueryId="false" schema="anytxn_v2_dev">
+               selectByExampleQueryId="false">
             <columnOverride column="CREATE_TIME" javaType="java.time.LocalDateTime"
                             jdbcType="TIMESTAMP"/>
             <columnOverride column="UPDATE_TIME"
