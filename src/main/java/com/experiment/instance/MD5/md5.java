@@ -1,4 +1,4 @@
-package com.test.fortest.MD5;
+package com.experiment.instance.MD5;
 
 import org.springframework.util.DigestUtils;
 import org.springframework.util.StringUtils;
