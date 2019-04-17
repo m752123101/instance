@@ -1,7 +1,6 @@
-package com.experiment.instance.MD5;
+package com.experiment.instance.other.MD5;
 
 import org.springframework.util.DigestUtils;
-import org.springframework.util.StringUtils;
 
 /**
  * @Auther: hanwen.dong

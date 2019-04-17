@@ -1,4 +1,4 @@
-package com.experiment.instance.dateAbout;
+package com.experiment.instance.other.dateAbout;
 
 import java.text.SimpleDateFormat;
 

@@ -7,7 +7,7 @@ package com.experiment.instance;
  */
 public class Bean {
     private String beanName;
-    private Integer beanage;
+    private Integer beanAge;
     private String beanName2;
 
     public String getBeanName() {
@@ -18,12 +18,12 @@ public class Bean {
         this.beanName = beanName;
     }
 
-    public Integer getBeanage() {
-        return beanage;
+    public Integer getBeanAge() {
+        return beanAge;
     }
 
-    public void setBeanage(Integer beanage) {
-        this.beanage = beanage;
+    public void setBeanAge(Integer beanAge) {
+        this.beanAge = beanAge;
     }
 
     public String getBeanName2() {
