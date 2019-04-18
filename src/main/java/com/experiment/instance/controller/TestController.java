@@ -11,9 +11,12 @@ import org.springframework.web.bind.annotation.*;
 
 @RestController
 public class TestController extends BaseController{
+    static Integer cx=0;
     @GetMapping(value = "/test")
     public String test(){
-        return "hello world";
+        cx++;
+        System.out.println("次数："+cx+" into hello world");
+        return cx+"次hello world";
     }
 
     @PostMapping(value = "/testPost")

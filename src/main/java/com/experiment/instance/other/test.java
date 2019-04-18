@@ -3,6 +3,9 @@ package com.experiment.instance.other;
 import com.experiment.instance.Bean;
 
 import java.time.LocalDate;
+import java.util.ArrayList;
+import java.util.List;
+import java.util.stream.Collectors;
 
 /**
  * @author hanwen.dong
@@ -12,8 +15,6 @@ import java.time.LocalDate;
 
 public class test {
     public static void main(String[] args) {
-      Bean bean=new Bean();
-      Bean bean1;
-        System.out.println();
+
     }
 }
