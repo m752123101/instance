@@ -1,32 +1,5 @@
-/target/
-!.mvn/wrapper/maven-wrapper.jar
-.target
-
-### STS ###
-.apt_generated
-.classpath
-.factorypath
-.project
-.settings
-.springBeans
-.sts4-cache
-
-### IntelliJ IDEA ###
-.idea
-*.iws
-*.iml
-*.ipr
-*.log
-
-### NetBeans ###
-/nbproject/private/
-/build/
-/nbbuild/
-/dist/
-/nbdist/
-/.nb-gradle/
-### 忽略test写的所有文件
-test/resources/
-/logs/*
-
-
+# Created by .ignore support plugin (hsz.mobi)
+.gitignore
+.idea/
+instance.iml
+target/
