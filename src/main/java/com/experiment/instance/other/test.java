@@ -4,7 +4,10 @@ import com.experiment.instance.Bean;
 
 import java.time.LocalDate;
 import java.util.ArrayList;
+import java.util.HashMap;
 import java.util.List;
+import java.util.Map;
+import java.util.concurrent.ConcurrentHashMap;
 import java.util.stream.Collectors;
 
 /**
@@ -15,6 +18,10 @@ import java.util.stream.Collectors;
 
 public class test {
     public static void main(String[] args) {
+        ConcurrentHashMap<String, String> cx = new ConcurrentHashMap<>(16);
+        Map<String, String> map = new HashMap(16);
+        map.put("", "");
+
 
     }
 }

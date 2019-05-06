@@ -1,4 +1,4 @@
-package com.experiment.designPattern.factoryDesign.staticM;/**
+package com.experiment.instance.designPattern.factoryDesign.staticM;/**
  * @Classname Food
  * @Description TODO
  * @Date 2019/4/24 17:09

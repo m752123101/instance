@@ -1,4 +1,4 @@
-package com.experiment.designPattern.factoryDesign.staticM;
+package com.experiment.instance.designPattern.factoryDesign.staticM;
 
 /**
  * @author hanwen.dong

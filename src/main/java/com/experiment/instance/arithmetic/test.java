@@ -29,6 +29,8 @@ public class test {
 //        for(int i=101;i<201;i++){
 //            if(iszhishu(i)){
 //                System.out.println("adsad");
+
+
 //            }
 //        }
 

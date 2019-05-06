@@ -1,4 +1,4 @@
-package com.experiment.designPattern.adaptive;
+package com.experiment.instance.designPattern.adaptive;
 
 /**
  * @author hanwen.dong
